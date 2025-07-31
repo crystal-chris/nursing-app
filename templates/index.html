@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome to the Nursing App</h1>
+    <p>Please choose your role to register:</p>
+
+    <a href="{{ url_for('register', role='patient') }}">
+        <button>Register as Patient</button>
+    </a>
+
+    <a href="{{ url_for('register', role='nurse') }}">
+        <button>Register as Nurse</button>
+    </a>
+</body>
+</html>

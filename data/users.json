@@ -1,0 +1,33 @@
+[
+    {
+        "role": "patient",
+        "name": "Donald Trump",
+        "contact": "+223478799"
+    },
+    {
+        "role": "patient",
+        "name": "Hilary Clinton",
+        "contact": "+234568976"
+    },
+    {
+        "role": "nurse",
+        "name": "Javon Onuks",
+        "contact": "+2345787479"
+    },
+    {
+        "role": "patient",
+        "name": "Elon Musk ",
+        "email": "must@gmail.com",
+        "contact": "+2345654",
+        "sex": "Male",
+        "location": "Dallas, Georgia"
+    },
+    {
+        "role": "nurse",
+        "name": "Amaka Mesolina",
+        "email": "mesolinanwanyioma@gmail.com",
+        "contact": "+34567",
+        "sex": "Male",
+        "location": "Buckhead, GA"
+    }
+]

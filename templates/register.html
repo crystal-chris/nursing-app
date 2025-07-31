@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register as {{ role.capitalize() }}</title>
+</head>
+<body>
+    <h2>Register as {{ role.capitalize() }}</h2>
+    <form method="POST">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Contact: <input type="text" name="contact" required><br><br>
+        Sex: 
+        <select name="sex" required>
+            <option value="">--Select--</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br><br>
+        Location: <input type="text" name="location" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
